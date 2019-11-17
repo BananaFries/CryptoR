@@ -10,7 +10,7 @@ print("#1. Encoders\n#2. Decoders")
 print("\n")
 a = 1
 while(a == 1):  # THIS IS THE MAIN LOOP TO KEEP THE USER IN THE PROGRAM UNTIL THEY EXIT
-    try:  # MAIN TRY STATEMENT TO CATCH VALUE ERRORS (ENDS ON LINE 47)
+    try:  # MAIN TRY STATEMENT TO CATCH VALUE ERRORS (ENDS ON LINE 54)
         option = int(input("\nChoose if you wanna Encode/Decode\n#Enter 1 or 2: "))
         if option == 1:  # IF THE USER CHOOSE TO ENCODE
             print("\n")  # DESIGN FROM LINE 16 TO 22
