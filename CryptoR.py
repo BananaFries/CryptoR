@@ -1,4 +1,5 @@
 from moduleTest import ceaserE
+#its better to just use import moduleTest and then use moduleTest.ceaseE for methods
 from moduleTest import ceaserD
 # THIS IS THE DESIGNING PART UP TO LINE 10
 print("\n")
@@ -34,7 +35,8 @@ while(a == 1):  # THIS IS THE MAIN LOOP TO KEEP THE USER IN THE PROGRAM UNTIL TH
                     print("Thank you for using CryptoR")
                     a = 0
                 else:  # IDK WHAT THE FUCK I SHOULD PUT IN HERE...
-                    print("\nCongrats you broke the program ;)\n")
+                    #  you have to give a better user input check loop where it loops untill it gets either one of the input
+                    print("\n Please provide a valid input \n")
                     a = 0
             elif option == 2:
                 print("test")
@@ -46,10 +48,11 @@ while(a == 1):  # THIS IS THE MAIN LOOP TO KEEP THE USER IN THE PROGRAM UNTIL TH
 
 
         elif option == 2:  # IF USER WANTS TO GO FOR DECRYPTION INSTEAD
+            #wheres the decryption method?
             print("test")
             a = 0
         else:  # TO DEAL WITH TARDS WHO TRY TO BREAK MY PROGRAM
-            print("\nI AM SMARTER !\n")
+            print("\n thers no option like that \n")
 
     except ValueError:  # END OF EXCEPT STATEMENT
         print("\nValue Error ! Lets head back to main!\n")
